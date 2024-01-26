@@ -1,0 +1,43 @@
+.section2 {
+    background-color: #37373F;
+
+    &_container {
+        @include center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        &_div_practiceareas {
+            @include center;
+            padding-top: 5rem;
+        }
+
+        &_item {
+
+            &_items {
+                display: flex;
+                padding-top: 1rem;
+                ;
+
+                img {
+                    width: 40px;
+                    border: 20px solid #5F5F65;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    &_variouscases {
+        @include center;
+        display: flex;
+        padding-top: 10rem;
+
+        &_items {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            padding-left: 15rem;
+        }
+    }
+
+}

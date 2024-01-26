@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url("https://preview.colorlib.com/theme/justice/images/hero_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.nav_logo {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.nav_div_item_items {
+  display: inline-block;
+  list-style: none;
+  padding-right: 2rem;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 15rem;
+  align-items: end;
+}
+.section1_div {
+  width: 400px;
+}
+
+.section2 {
+  background-color: #37373F;
+}
+.section2_container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section2_container_div_practiceareas {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.section2_container_item_items {
+  display: flex;
+  padding-top: 1rem;
+}
+.section2_container_item_items img {
+  width: 40px;
+  border: 20px solid #5F5F65;
+  border-radius: 50%;
+}
+.section2_variouscases {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 10rem;
+}
+.section2_variouscases_items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-left: 15rem;
+}
+
+.section3 {
+  background-color: #37373F;
+  height: 100%;
+}
+.section3_div {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.section3_item {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+.section3_item_items {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 250px;
+  padding-left: 2rem;
+}
+.section3_item_items img {
+  width: 40px;
+  padding-top: 2rem;
+}
+.section3_call {
+  max-width: 1180px;
+  margin: 0 auto;
+  background-image: url("https://preview.colorlib.com/theme/justice/images/hero_bg.jpg");
+  width: 1000px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.section3_call p {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #37373F;
+  height: 60vh;
+}
+.footer_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  line-height: 2.5rem;
+  padding-top: 2rem;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.footer_div_item_p {
+  color: #B49C73;
+  font-size: 1.5rem;
+}
+.footer_finish {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+}/*# sourceMappingURL=style.css.map */

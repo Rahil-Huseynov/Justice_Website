@@ -1,0 +1,26 @@
+.footer {
+    background-color: #37373F;
+    height: 60vh;
+
+    &_div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        line-height: 2.5rem;
+        padding-top: 2rem;
+        @include center;
+
+        &_item {
+            &_p {
+                color: #B49C73;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    &_finish {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 4rem;
+    }
+}

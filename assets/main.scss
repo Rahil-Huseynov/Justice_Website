@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('https://preview.colorlib.com/theme/justice/images/hero_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav {
+    @include center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+
+    &_logo {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    &_div {
+        &_item {
+            &_items {
+                display: inline-block;
+                list-style: none;
+                padding-right: 2rem;
+            }
+        }
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    @include center;
+    padding-top: 15rem;
+    align-items: end;
+
+
+    &_div {
+        width: 400px;
+    }
+}

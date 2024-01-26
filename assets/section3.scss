@@ -1,0 +1,54 @@
+.section3 {
+    background-color: #37373F;
+    height: 100%;
+
+    &_div {
+        @include center;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    &_item {
+        @include center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding-bottom: 5rem;
+
+        &_items {
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 10px;
+            height: 300px;
+            width: 250px;
+            padding-left: 2rem;
+
+            img {
+                width: 40px;
+                padding-top: 2rem;
+            }
+        }
+    }
+
+    &_call {
+        @include center;
+        background-image: url('https://preview.colorlib.com/theme/justice/images/hero_bg.jpg');
+        width: 1000px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        opacity: 0.8;
+
+        p {
+            display: flex;
+            justify-content: center;
+            padding-top: 10rem;
+            width: 500px;
+            margin: 0 auto;
+            font-size: 2rem;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}

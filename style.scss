@@ -1,0 +1,9 @@
+@mixin center {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+@import './assets/main.scss';
+@import './assets/section2.scss';
+@import './assets/section3.scss';
+@import './assets/footer.scss';
